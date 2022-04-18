@@ -26,6 +26,62 @@ body {
 }
 
 .container {
-    max-width: 1050px;
-    min-width: 345px;
+    max-width: 1080px;
+    min-width: 375px;
+    margin: 0 auto;
+}
+
+.top__box,
+.botton__box {
+    background-color: #F3F3F3;
+}
+
+.why {
+    padding: 118px 15px 98px ;
+    text-align: center;
+}
+
+.why__desc {
+    padding: 0 59px 75px;
+}
+
+.why__desc__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.why__desc__text {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.why__cart {
+    padding: 30px 0;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.why__cart:last-child {
+    margin-bottom: 0;
+}
+
+.why__cart__content__title {
+    font-weight: 700;
+    line-height: 57px;
+    font-size: 40px;
+    color: #252B42;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+
+.why__cart__content__text {
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.1px;
 }
